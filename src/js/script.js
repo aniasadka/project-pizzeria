@@ -62,6 +62,7 @@
       thisProduct.getElements();
       thisProduct.initAccordion();
       thisProduct.initOrderForm();
+      thisProduct.processOrder();
 
 
       console.log('new Product:', thisProduct);
@@ -183,7 +184,7 @@
 
 
 
-      //thisProduct.priceElem.innerHTML = price;
+      thisProduct.priceElem.innerHTML = price;
     }
   }
 
